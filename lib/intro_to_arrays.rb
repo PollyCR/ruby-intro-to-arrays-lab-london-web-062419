@@ -4,6 +4,6 @@ end
 
 def array_with_two_elements
   @my_two_array = Array.new
-  "Thing 1" 
-  "Thing 2"
+  @my_two_array << "Thing 1" 
+  @my_two_array << "Thing 2"
 end 
